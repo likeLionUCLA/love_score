@@ -1,4 +1,4 @@
-## LoveScore 
+## LoveScore
 
 - 1) Use your full name
 - 2) Use another full name where we will check their love score
@@ -15,13 +15,13 @@
 
            'Jeehae' -> 74+69+69+72+65+69 = 418
            'Justin' -> 74+85+83+84+73+78 = 477
-           'Jessica' -> 74+69+83+83+73+69+65 = 516
+           'Jessica' -> 74+69+83+83+73+67+65 = 514
            'Drew' -> 68+82+69+87 = 306
            'Song' -> 83+79+78+71 = 311
            'Bieber' -> 66+73+69+66+69+82 = 425
 
         input : 'Jeehae Justin Jessica Drew Song Bieber'
-        output: '418 477 516 306 311 425'
+        output: '418 477 514 306 311 425'
 
 - 5) Create a method called loveScore that take one argument as a string, and returns a final score as a number between 0-99.
 
@@ -32,13 +32,13 @@
 
 (example)
 
-    input: '418 477 516 306 311 425'
+    input: '418 477 514 306 311 425'
 
-    step1:   18  77  16  06  11 25
-    step2:     95  93  22  17  36
-                 88  15  39  53
-                    3  54  92
-                     57  46
-                       3
+    step1:   18  77  14  6  11  25
+    step2:     95  91  20  17  36
+                 86  11  37  53
+                   97  48  90
+                     45  38
+                       83
 
-    output : 3
+    output : 83
